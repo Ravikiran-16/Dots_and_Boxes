@@ -1,0 +1,1126 @@
+{
+  "timestamp": "2026-11-14 22:50:08",
+  "total_runtime_seconds": 59.71,
+  "benchmark_1_tournament": {
+    "matrix": {
+      "alphabeta": {
+        "alphabeta": {
+          "wins": 0,
+          "losses": 0,
+          "draws": 0,
+          "pts_scored": 0,
+          "pts_conceded": 0
+        },
+        "mcts": {
+          "wins": 6,
+          "losses": 0,
+          "draws": 0,
+          "pts_scored": 46,
+          "pts_conceded": 22
+        },
+        "berlekamp": {
+          "wins": 5,
+          "losses": 1,
+          "draws": 0,
+          "pts_scored": 39,
+          "pts_conceded": 29
+        },
+        "policy_value": {
+          "wins": 6,
+          "losses": 0,
+          "draws": 0,
+          "pts_scored": 53,
+          "pts_conceded": 15
+        }
+      },
+      "mcts": {
+        "alphabeta": {
+          "wins": 0,
+          "losses": 6,
+          "draws": 0,
+          "pts_scored": 22,
+          "pts_conceded": 46
+        },
+        "mcts": {
+          "wins": 0,
+          "losses": 0,
+          "draws": 0,
+          "pts_scored": 0,
+          "pts_conceded": 0
+        },
+        "berlekamp": {
+          "wins": 0,
+          "losses": 6,
+          "draws": 0,
+          "pts_scored": 14,
+          "pts_conceded": 54
+        },
+        "policy_value": {
+          "wins": 1,
+          "losses": 5,
+          "draws": 0,
+          "pts_scored": 25,
+          "pts_conceded": 43
+        }
+      },
+      "berlekamp": {
+        "alphabeta": {
+          "wins": 1,
+          "losses": 5,
+          "draws": 0,
+          "pts_scored": 29,
+          "pts_conceded": 39
+        },
+        "mcts": {
+          "wins": 6,
+          "losses": 0,
+          "draws": 0,
+          "pts_scored": 54,
+          "pts_conceded": 14
+        },
+        "berlekamp": {
+          "wins": 0,
+          "losses": 0,
+          "draws": 0,
+          "pts_scored": 0,
+          "pts_conceded": 0
+        },
+        "policy_value": {
+          "wins": 4,
+          "losses": 2,
+          "draws": 0,
+          "pts_scored": 43,
+          "pts_conceded": 25
+        }
+      },
+      "policy_value": {
+        "alphabeta": {
+          "wins": 0,
+          "losses": 6,
+          "draws": 0,
+          "pts_scored": 15,
+          "pts_conceded": 53
+        },
+        "mcts": {
+          "wins": 5,
+          "losses": 1,
+          "draws": 0,
+          "pts_scored": 43,
+          "pts_conceded": 25
+        },
+        "berlekamp": {
+          "wins": 2,
+          "losses": 4,
+          "draws": 0,
+          "pts_scored": 25,
+          "pts_conceded": 43
+        },
+        "policy_value": {
+          "wins": 0,
+          "losses": 0,
+          "draws": 0,
+          "pts_scored": 0,
+          "pts_conceded": 0
+        }
+      }
+    },
+    "matches": [
+      {
+        "algo1": "alphabeta",
+        "algo2": "mcts",
+        "score1": 5,
+        "score2": 4,
+        "winner": "alphabeta",
+        "margin": 1,
+        "duration": 2.2884323000034783,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "mcts",
+        "score1": 6,
+        "score2": 3,
+        "winner": "alphabeta",
+        "margin": 3,
+        "duration": 1.822926599998027,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "berlekamp",
+        "score1": 3,
+        "score2": 6,
+        "winner": "berlekamp",
+        "margin": -3,
+        "duration": 1.7142149000137579,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "berlekamp",
+        "score1": 5,
+        "score2": 4,
+        "winner": "alphabeta",
+        "margin": 1,
+        "duration": 1.5720763000135776,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "policy_value",
+        "score1": 5,
+        "score2": 4,
+        "winner": "alphabeta",
+        "margin": 1,
+        "duration": 2.208202899986645,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "policy_value",
+        "score1": 5,
+        "score2": 4,
+        "winner": "alphabeta",
+        "margin": 1,
+        "duration": 2.081754999991972,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "alphabeta",
+        "score1": 2,
+        "score2": 7,
+        "winner": "alphabeta",
+        "margin": -5,
+        "duration": 1.7202107000048272,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "alphabeta",
+        "score1": 4,
+        "score2": 5,
+        "winner": "alphabeta",
+        "margin": -1,
+        "duration": 1.8514785000006668,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "berlekamp",
+        "score1": 1,
+        "score2": 8,
+        "winner": "berlekamp",
+        "margin": -7,
+        "duration": 0.24826480000047013,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "berlekamp",
+        "score1": 1,
+        "score2": 8,
+        "winner": "berlekamp",
+        "margin": -7,
+        "duration": 0.2513537000049837,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "policy_value",
+        "score1": 3,
+        "score2": 6,
+        "winner": "policy_value",
+        "margin": -3,
+        "duration": 0.5793315999908373,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "policy_value",
+        "score1": 3,
+        "score2": 6,
+        "winner": "policy_value",
+        "margin": -3,
+        "duration": 0.7745031999947969,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "alphabeta",
+        "score1": 3,
+        "score2": 6,
+        "winner": "alphabeta",
+        "margin": -3,
+        "duration": 1.308394199993927,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "alphabeta",
+        "score1": 3,
+        "score2": 6,
+        "winner": "alphabeta",
+        "margin": -3,
+        "duration": 1.3470279999892227,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "mcts",
+        "score1": 7,
+        "score2": 2,
+        "winner": "berlekamp",
+        "margin": 5,
+        "duration": 0.19127599999774247,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "mcts",
+        "score1": 5,
+        "score2": 4,
+        "winner": "berlekamp",
+        "margin": 1,
+        "duration": 0.2036826999974437,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "policy_value",
+        "score1": 3,
+        "score2": 6,
+        "winner": "policy_value",
+        "margin": -3,
+        "duration": 0.2824043000000529,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "policy_value",
+        "score1": 3,
+        "score2": 6,
+        "winner": "policy_value",
+        "margin": -3,
+        "duration": 0.3233100000070408,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "alphabeta",
+        "score1": 2,
+        "score2": 7,
+        "winner": "alphabeta",
+        "margin": -5,
+        "duration": 1.7465168999915477,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "alphabeta",
+        "score1": 2,
+        "score2": 7,
+        "winner": "alphabeta",
+        "margin": -5,
+        "duration": 1.6136421000119299,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "mcts",
+        "score1": 3,
+        "score2": 6,
+        "winner": "mcts",
+        "margin": -3,
+        "duration": 0.779427500005113,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "mcts",
+        "score1": 7,
+        "score2": 2,
+        "winner": "policy_value",
+        "margin": 5,
+        "duration": 0.5971065999765415,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "berlekamp",
+        "score1": 3,
+        "score2": 6,
+        "winner": "berlekamp",
+        "margin": -3,
+        "duration": 0.3833417999849189,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 1
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "berlekamp",
+        "score1": 3,
+        "score2": 6,
+        "winner": "berlekamp",
+        "margin": -3,
+        "duration": 0.38696199998958036,
+        "moves": 24,
+        "grid_size": 3,
+        "round": 2
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "mcts",
+        "score1": 10,
+        "score2": 6,
+        "winner": "alphabeta",
+        "margin": 4,
+        "duration": 3.759112700005062,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "berlekamp",
+        "score1": 9,
+        "score2": 7,
+        "winner": "alphabeta",
+        "margin": 2,
+        "duration": 1.9714230000099633,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "alphabeta",
+        "algo2": "policy_value",
+        "score1": 16,
+        "score2": 0,
+        "winner": "alphabeta",
+        "margin": 16,
+        "duration": 2.9314252999902237,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "alphabeta",
+        "score1": 3,
+        "score2": 13,
+        "winner": "alphabeta",
+        "margin": -10,
+        "duration": 3.2055657999881078,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "berlekamp",
+        "score1": 4,
+        "score2": 12,
+        "winner": "berlekamp",
+        "margin": -8,
+        "duration": 0.6668067999999039,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "mcts",
+        "algo2": "policy_value",
+        "score1": 7,
+        "score2": 9,
+        "winner": "policy_value",
+        "margin": -2,
+        "duration": 1.9685538999910932,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "alphabeta",
+        "score1": 6,
+        "score2": 10,
+        "winner": "alphabeta",
+        "margin": -4,
+        "duration": 1.9640097999945283,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "mcts",
+        "score1": 14,
+        "score2": 2,
+        "winner": "berlekamp",
+        "margin": 12,
+        "duration": 0.758126100001391,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "berlekamp",
+        "algo2": "policy_value",
+        "score1": 14,
+        "score2": 2,
+        "winner": "berlekamp",
+        "margin": 12,
+        "duration": 0.8586815999879036,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "alphabeta",
+        "score1": 3,
+        "score2": 13,
+        "winner": "alphabeta",
+        "margin": -10,
+        "duration": 3.1835575999866705,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "mcts",
+        "score1": 12,
+        "score2": 4,
+        "winner": "policy_value",
+        "margin": 8,
+        "duration": 1.8464916999801062,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      },
+      {
+        "algo1": "policy_value",
+        "algo2": "berlekamp",
+        "score1": 5,
+        "score2": 11,
+        "winner": "berlekamp",
+        "margin": -6,
+        "duration": 1.0406422000087332,
+        "moves": 40,
+        "grid_size": 4,
+        "round": 1
+      }
+    ],
+    "standings": {
+      "alphabeta": {
+        "name": "Alpha-Beta (Minimax)",
+        "games": 18,
+        "wins": 17,
+        "losses": 1,
+        "draws": 0,
+        "win_rate_pct": 94.4,
+        "points_for": 138,
+        "points_against": 66,
+        "point_differential": 72,
+        "elo_rating": 1992.2
+      },
+      "mcts": {
+        "name": "MCTS (Monte Carlo)",
+        "games": 18,
+        "wins": 1,
+        "losses": 17,
+        "draws": 0,
+        "win_rate_pct": 5.6,
+        "points_for": 61,
+        "points_against": 143,
+        "point_differential": -82,
+        "elo_rating": 1007.8
+      },
+      "berlekamp": {
+        "name": "Berlekamp (Solver)",
+        "games": 18,
+        "wins": 11,
+        "losses": 7,
+        "draws": 0,
+        "win_rate_pct": 61.1,
+        "points_for": 126,
+        "points_against": 78,
+        "point_differential": 48,
+        "elo_rating": 1578.5
+      },
+      "policy_value": {
+        "name": "Policy-Value (Guided)",
+        "games": 18,
+        "wins": 7,
+        "losses": 11,
+        "draws": 0,
+        "win_rate_pct": 38.9,
+        "points_for": 83,
+        "points_against": 121,
+        "point_differential": -38,
+        "elo_rating": 1421.5
+      }
+    }
+  },
+  "benchmark_2_tactical": {
+    "alphabeta": {
+      "name": "Alpha-Beta (Minimax)",
+      "passed_tests": 5,
+      "total_tests": 5,
+      "accuracy_pct": 100.0,
+      "details": [
+        {
+          "test_id": "T1_DOUBLE_CROSS",
+          "name": "Double-Cross Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            0,
+            1
+          ],
+          "latency_ms": 3.87
+        },
+        {
+          "test_id": "T2_LOOP_CONTROL",
+          "name": "Nimstring Loop Parity",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            2,
+            2
+          ],
+          "latency_ms": 450.11
+        },
+        {
+          "test_id": "T3_FREE_CAPTURE_SWEEP",
+          "name": "Immediate Free Capture Sweep",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            0,
+            1
+          ],
+          "latency_ms": 88.62
+        },
+        {
+          "test_id": "T4_SAFE_MANEUVERING",
+          "name": "Risk Avoidance & Corridor Safety",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            3,
+            2
+          ],
+          "latency_ms": 142.78
+        },
+        {
+          "test_id": "T5_MINIMAL_SACRIFICE",
+          "name": "Minimal Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            3,
+            2
+          ],
+          "latency_ms": 3.88
+        }
+      ]
+    },
+    "mcts": {
+      "name": "MCTS (Monte Carlo)",
+      "passed_tests": 5,
+      "total_tests": 5,
+      "accuracy_pct": 100.0,
+      "details": [
+        {
+          "test_id": "T1_DOUBLE_CROSS",
+          "name": "Double-Cross Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            0,
+            1
+          ],
+          "latency_ms": 5.69
+        },
+        {
+          "test_id": "T2_LOOP_CONTROL",
+          "name": "Nimstring Loop Parity",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            2,
+            0
+          ],
+          "latency_ms": 36.22
+        },
+        {
+          "test_id": "T3_FREE_CAPTURE_SWEEP",
+          "name": "Immediate Free Capture Sweep",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            0,
+            1
+          ],
+          "latency_ms": 0.02
+        },
+        {
+          "test_id": "T4_SAFE_MANEUVERING",
+          "name": "Risk Avoidance & Corridor Safety",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            3,
+            2
+          ],
+          "latency_ms": 41.84
+        },
+        {
+          "test_id": "T5_MINIMAL_SACRIFICE",
+          "name": "Minimal Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            2,
+            3
+          ],
+          "latency_ms": 7.86
+        }
+      ]
+    },
+    "berlekamp": {
+      "name": "Berlekamp (Solver)",
+      "passed_tests": 5,
+      "total_tests": 5,
+      "accuracy_pct": 100.0,
+      "details": [
+        {
+          "test_id": "T1_DOUBLE_CROSS",
+          "name": "Double-Cross Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            0,
+            1
+          ],
+          "latency_ms": 0.07
+        },
+        {
+          "test_id": "T2_LOOP_CONTROL",
+          "name": "Nimstring Loop Parity",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            2,
+            2
+          ],
+          "latency_ms": 0.06
+        },
+        {
+          "test_id": "T3_FREE_CAPTURE_SWEEP",
+          "name": "Immediate Free Capture Sweep",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            0,
+            1
+          ],
+          "latency_ms": 0.06
+        },
+        {
+          "test_id": "T4_SAFE_MANEUVERING",
+          "name": "Risk Avoidance & Corridor Safety",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            1,
+            1
+          ],
+          "latency_ms": 0.06
+        },
+        {
+          "test_id": "T5_MINIMAL_SACRIFICE",
+          "name": "Minimal Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            3,
+            2
+          ],
+          "latency_ms": 0.08
+        }
+      ]
+    },
+    "policy_value": {
+      "name": "Policy-Value (Guided)",
+      "passed_tests": 5,
+      "total_tests": 5,
+      "accuracy_pct": 100.0,
+      "details": [
+        {
+          "test_id": "T1_DOUBLE_CROSS",
+          "name": "Double-Cross Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            1,
+            1
+          ],
+          "latency_ms": 3.73
+        },
+        {
+          "test_id": "T2_LOOP_CONTROL",
+          "name": "Nimstring Loop Parity",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            2,
+            2
+          ],
+          "latency_ms": 37.55
+        },
+        {
+          "test_id": "T3_FREE_CAPTURE_SWEEP",
+          "name": "Immediate Free Capture Sweep",
+          "passed": true,
+          "chosen_move": [
+            "v",
+            0,
+            1
+          ],
+          "latency_ms": 35.92
+        },
+        {
+          "test_id": "T4_SAFE_MANEUVERING",
+          "name": "Risk Avoidance & Corridor Safety",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            2,
+            1
+          ],
+          "latency_ms": 123.45
+        },
+        {
+          "test_id": "T5_MINIMAL_SACRIFICE",
+          "name": "Minimal Chain Sacrifice",
+          "passed": true,
+          "chosen_move": [
+            "h",
+            3,
+            2
+          ],
+          "latency_ms": 3.68
+        }
+      ]
+    }
+  },
+  "benchmark_3_latency": {
+    "alphabeta": {
+      "name": "Alpha-Beta (Minimax)",
+      "trials": 12,
+      "mean_latency_ms": 366.35,
+      "median_latency_ms": 450.09,
+      "p95_latency_ms": 450.29,
+      "min_latency_ms": 78.37,
+      "max_latency_ms": 450.29,
+      "avg_units_explored": 23170.8,
+      "throughput_units_per_sec": 63248.0,
+      "est_memory_kb": 4694.2
+    },
+    "mcts": {
+      "name": "MCTS (Monte Carlo)",
+      "trials": 12,
+      "mean_latency_ms": 41.67,
+      "median_latency_ms": 40.99,
+      "p95_latency_ms": 62.12,
+      "min_latency_ms": 25.26,
+      "max_latency_ms": 62.12,
+      "avg_units_explored": 250.0,
+      "throughput_units_per_sec": 6000.0,
+      "est_memory_kb": 94.0
+    },
+    "berlekamp": {
+      "name": "Berlekamp (Solver)",
+      "trials": 12,
+      "mean_latency_ms": 0.08,
+      "median_latency_ms": 0.07,
+      "p95_latency_ms": 0.14,
+      "min_latency_ms": 0.06,
+      "max_latency_ms": 0.14,
+      "avg_units_explored": 35.2,
+      "throughput_units_per_sec": 464553.0,
+      "est_memory_kb": 48.0
+    },
+    "policy_value": {
+      "name": "Policy-Value (Guided)",
+      "trials": 12,
+      "mean_latency_ms": 46.04,
+      "median_latency_ms": 37.39,
+      "p95_latency_ms": 112.08,
+      "min_latency_ms": 22.94,
+      "max_latency_ms": 112.08,
+      "avg_units_explored": 150.0,
+      "throughput_units_per_sec": 3258.0,
+      "est_memory_kb": 269.5
+    }
+  },
+  "benchmark_4_scalability": {
+    "alphabeta": {
+      "3x3": {
+        "edges": 24,
+        "boxes": 9,
+        "opening_latency_ms": 200.11,
+        "midgame_latency_ms": 450.09,
+        "opening_move": [
+          "h",
+          0,
+          0
+        ],
+        "midgame_move": [
+          "v",
+          0,
+          0
+        ]
+      },
+      "4x4": {
+        "edges": 40,
+        "boxes": 16,
+        "opening_latency_ms": 200.09,
+        "midgame_latency_ms": 200.1,
+        "opening_move": [
+          "h",
+          0,
+          0
+        ],
+        "midgame_move": [
+          "v",
+          0,
+          0
+        ]
+      },
+      "5x5": {
+        "edges": 60,
+        "boxes": 25,
+        "opening_latency_ms": 200.19,
+        "midgame_latency_ms": 200.16,
+        "opening_move": [
+          "h",
+          0,
+          0
+        ],
+        "midgame_move": [
+          "h",
+          4,
+          0
+        ]
+      },
+      "scale_factor_4x4_vs_3x3": 0.44,
+      "scale_factor_5x5_vs_3x3": 0.44
+    },
+    "mcts": {
+      "3x3": {
+        "edges": 24,
+        "boxes": 9,
+        "opening_latency_ms": 35.97,
+        "midgame_latency_ms": 39.86,
+        "opening_move": [
+          "h",
+          3,
+          0
+        ],
+        "midgame_move": [
+          "v",
+          0,
+          1
+        ]
+      },
+      "4x4": {
+        "edges": 40,
+        "boxes": 16,
+        "opening_latency_ms": 121.5,
+        "midgame_latency_ms": 65.87,
+        "opening_move": [
+          "v",
+          3,
+          0
+        ],
+        "midgame_move": [
+          "v",
+          0,
+          0
+        ]
+      },
+      "5x5": {
+        "edges": 60,
+        "boxes": 25,
+        "opening_latency_ms": 200.82,
+        "midgame_latency_ms": 150.12,
+        "opening_move": [
+          "h",
+          3,
+          3
+        ],
+        "midgame_move": [
+          "h",
+          4,
+          3
+        ]
+      },
+      "scale_factor_4x4_vs_3x3": 1.65,
+      "scale_factor_5x5_vs_3x3": 3.77
+    },
+    "berlekamp": {
+      "3x3": {
+        "edges": 24,
+        "boxes": 9,
+        "opening_latency_ms": 0.08,
+        "midgame_latency_ms": 0.07,
+        "opening_move": [
+          "h",
+          1,
+          0
+        ],
+        "midgame_move": [
+          "v",
+          2,
+          1
+        ]
+      },
+      "4x4": {
+        "edges": 40,
+        "boxes": 16,
+        "opening_latency_ms": 0.19,
+        "midgame_latency_ms": 0.18,
+        "opening_move": [
+          "h",
+          1,
+          0
+        ],
+        "midgame_move": [
+          "h",
+          3,
+          2
+        ]
+      },
+      "5x5": {
+        "edges": 60,
+        "boxes": 25,
+        "opening_latency_ms": 0.18,
+        "midgame_latency_ms": 0.19,
+        "opening_move": [
+          "h",
+          1,
+          0
+        ],
+        "midgame_move": [
+          "h",
+          4,
+          0
+        ]
+      },
+      "scale_factor_4x4_vs_3x3": 1.8,
+      "scale_factor_5x5_vs_3x3": 1.9
+    },
+    "policy_value": {
+      "3x3": {
+        "edges": 24,
+        "boxes": 9,
+        "opening_latency_ms": 41.9,
+        "midgame_latency_ms": 31.93,
+        "opening_move": [
+          "h",
+          2,
+          1
+        ],
+        "midgame_move": [
+          "h",
+          2,
+          1
+        ]
+      },
+      "4x4": {
+        "edges": 40,
+        "boxes": 16,
+        "opening_latency_ms": 88.15,
+        "midgame_latency_ms": 145.0,
+        "opening_move": [
+          "h",
+          2,
+          2
+        ],
+        "midgame_move": [
+          "v",
+          1,
+          1
+        ]
+      },
+      "5x5": {
+        "edges": 60,
+        "boxes": 25,
+        "opening_latency_ms": 187.4,
+        "midgame_latency_ms": 220.14,
+        "opening_move": [
+          "h",
+          5,
+          2
+        ],
+        "midgame_move": [
+          "v",
+          2,
+          2
+        ]
+      },
+      "scale_factor_4x4_vs_3x3": 4.54,
+      "scale_factor_5x5_vs_3x3": 6.89
+    }
+  }
+}
